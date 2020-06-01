@@ -1,30 +1,41 @@
 var questions = [
     {
+        title: "Inside which HTML element do we put the JavaScript?",
         q : "Inside which HTML element do we put the JavaScript?",
-        o : [
+        choices : [
             "<scripting>",
             "<js>",
             "<javascript>",
             "<script>"
         ],
-        a : 3
+        answer : "<script>"
     },
     {
-        q : "The external Javascript file must contain <script> tag. True or false?",
-        o : [
+        title : "The external Javascript file must contain <script> tag. True or false?",
+        choices : [
             "<True>",
             "<False>"
         ],
-        a : 1
+        answer : "<False>"
     },
     {
-        q : "Which of the following is not a reserved word in Javascript?",
-        o : [
+        title : "Which of the following is not a reserved word in Javascript?",
+        choices : [
             "<interface>",
             "<throws>",
             "<program>",
             "<short>"
         ],
-        a : 2
+        answer : "<program>"
+    },
+    {
+        title: "What is the correct syntax for referring to an external script called 'script.js'",
+        choices: [
+            "<script src='scripts.js'>",
+            "<script src='script.js'>",
+            "<scripts src='index.js'>",
+            "<script ref='script.js'>"
+        ],
+        answer: "<script src='script.js'>"
     }
 ];
